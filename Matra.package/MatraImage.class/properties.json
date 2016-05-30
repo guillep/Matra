@@ -1,0 +1,18 @@
+{
+	"category" : "Matra",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"location",
+		"version",
+		"vmVersion",
+		"isRunning",
+		"process" ],
+	"name" : "MatraImage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

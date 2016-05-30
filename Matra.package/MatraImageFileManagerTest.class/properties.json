@@ -1,0 +1,14 @@
+{
+	"category" : "Matra",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"prototype" ],
+	"name" : "MatraImageFileManagerTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
