@@ -1,0 +1,4 @@
+cleanup
+clean
+	
+	location ensureDeleteAll

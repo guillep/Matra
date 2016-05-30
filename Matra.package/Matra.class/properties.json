@@ -1,0 +1,14 @@
+{
+	"category" : "Matra",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "Matra",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
