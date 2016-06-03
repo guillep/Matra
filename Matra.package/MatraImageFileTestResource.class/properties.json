@@ -6,14 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"location",
-		"version",
-		"vmVersion",
-		"isRunning",
-		"process",
-		"parentImage" ],
-	"name" : "MatraImage",
+		"pharo5",
+		"seamlessImage" ],
+	"name" : "MatraImageFileTestResource",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "TestResource",
 	"type" : "normal" }

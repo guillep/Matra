@@ -1,4 +1,4 @@
 testing
 environmentExists
 	
-	^ self imageExists and: [ self vmExists ]
+	^ self imageExists and: [ self vmExists and: [ self sourceFileExists ] ]

@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"prototype" ],
+		"prototype",
+		"cloned" ],
 	"name" : "MatraImageFileManagerTest",
 	"pools" : [
 		 ],

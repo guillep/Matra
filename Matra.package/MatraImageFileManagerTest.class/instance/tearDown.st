@@ -3,4 +3,6 @@ tearDown
 
 	super tearDown.
 	prototype kill.
-	prototype clean
+	prototype clean.
+	
+	cloned ifNotNil: [ cloned kill; clean ]
