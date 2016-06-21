@@ -11,6 +11,6 @@ testStartServer
 	Time now logCr.
 	
 	clientSideNetwork := SeamlessNetwork new.
-	remoteSmalltalk := clientSideNetwork environmentAt: (TCPAddress localAt: 8081).
+	remoteSmalltalk := clientSideNetwork environmentAt: (TCPAddress ip: #[0 0 0 0] port: 8081).
 
 	self assert: remoteSmalltalk vm path equals: prototype vmDirectory fullNameWithIndicator
