@@ -2,7 +2,9 @@ running
 tearDown
 
 	super tearDown.
-	prototype kill.
-	prototype clean.
+	[prototype kill] ifError: [].
+	[prototype clean] ifError: [].
 	
-	cloned ifNotNil: [ cloned kill; clean ]
+	cloned ifNotNil: [ 
+		[cloned kill] ifError: [  ].
+		[cloned clean] ifError: [  ] ]
