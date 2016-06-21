@@ -1,4 +1,4 @@
-loading
+testing
 bootVerifySeamlessIsPresent
 
 	self assert: 'SeamlessNetwork' = (self callImageWithArgument: { 

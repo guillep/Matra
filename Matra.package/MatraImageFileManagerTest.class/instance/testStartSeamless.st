@@ -1,10 +1,13 @@
 tests
 testStartSeamless
 
-	| remoteSmalltalk |
+	| remoteSmalltalk clientSideNetwork |
 	prototype load.
-	prototype startSeamlessOn: 8081.
+	prototype startServerOn: 8081.
 	
-	remoteSmalltalk := Smalltalk from: '127.0.0.1:8081'.
+	3 seconds wait. "that the image starts properly and starts listening"
+	
+	clientSideNetwork := SeamlessNetwork new.
+	remoteSmalltalk := clientSideNetwork environmentAt: (TCPAddress localAt: 8081).
 
 	self assert: remoteSmalltalk vm path == prototype vmDirectory fullNameWithIndicator

@@ -5,4 +5,4 @@ loadSeamless
 		'config'.
 		'http://smalltalkhub.com/mc/Pharo/Seamless/main'.
 		'ConfigurationOfSeamless'.
-		'--install=bleedingEdge' }
+		'--install=development' }
