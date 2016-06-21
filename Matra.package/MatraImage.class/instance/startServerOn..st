@@ -3,4 +3,4 @@ startServerOn: aPort
 	
 	self bootVerifySeamlessIsPresent.
 	self spawnDoing: {
-		'eval'. ('SeamlessNetwork new startServerOn: ', aPort asString) }
+		'eval' . '--no-quit' . ('SeamlessNetwork new startServerOn: ', aPort asString) }
