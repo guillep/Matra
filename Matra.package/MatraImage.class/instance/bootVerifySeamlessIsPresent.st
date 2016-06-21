@@ -1,6 +1,6 @@
 loading
 bootVerifySeamlessIsPresent
 
-	self assert: 'SeamlessDeamon' = (self callImageWithArgument: { 
+	self assert: 'SeamlessNetwork' = (self callImageWithArgument: { 
 		'eval' .
-		'SeamlessDeamon' }) trimBoth.
+		'SeamlessNetwork' }) trimBoth.

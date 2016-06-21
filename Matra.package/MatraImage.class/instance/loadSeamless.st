@@ -1,8 +1,8 @@
 loading
 loadSeamless
 
-	self callImageWithArgument: { 
+	^ self callImageWithArgument: { 
 		'config'.
-		'http://ss3.gemstone.com/ss/Seamless'.
+		'http://smalltalkhub.com/mc/Pharo/Seamless/main'.
 		'ConfigurationOfSeamless'.
-		'--install=0.4' }
+		'--install=bleedingEdge' }

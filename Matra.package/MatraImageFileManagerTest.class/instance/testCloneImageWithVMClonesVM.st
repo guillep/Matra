@@ -5,6 +5,6 @@ testCloneImageWithVMClonesVM
 	prototype loadVm.
 
 	clonedLocation := FileLocator temp / 'matra' / 'cloned'.
-	cloned := prototype cloneIn: FileLocator temp / 'matra' / 'cloned'.
+	cloned := prototype cloneIn: clonedLocation.
 	
 	self assert: prototype vmExists equals: cloned vmExists.
