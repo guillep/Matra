@@ -1,0 +1,15 @@
+{
+	"category" : "Matra",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"prototypeImage",
+		"image" ],
+	"name" : "MatraFileCopyLoader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
 loading
-ensureDirectory
+ensureLocationExists
 	
 	location ensureCreateDirectory

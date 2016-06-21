@@ -1,0 +1,4 @@
+accessing
+sourceFileExists
+	
+	^ image sourceFileExists

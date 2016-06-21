@@ -1,4 +1,4 @@
 cleanup
 clean
 	
-	location ensureDeleteAll
+	self location ensureDeleteAll

@@ -1,4 +1,4 @@
 testing
 imageExists
 	
-	^ self imageFile exists
+	^ self imageFile notNil and: [ self imageFile exists ]

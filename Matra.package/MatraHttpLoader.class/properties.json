@@ -1,0 +1,16 @@
+{
+	"category" : "Matra",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"imageVersion",
+		"vmVersion",
+		"image" ],
+	"name" : "MatraHttpLoader",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

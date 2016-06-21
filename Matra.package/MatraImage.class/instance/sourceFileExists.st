@@ -1,4 +1,4 @@
 testing
 sourceFileExists
 	
-	^ self sourceFile exists
+	^ self sourceFile notNil and: [ self sourceFile exists ]
