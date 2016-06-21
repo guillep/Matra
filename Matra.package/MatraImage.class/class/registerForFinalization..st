@@ -3,6 +3,5 @@ registerForFinalization: anImage
 
 	self imageRegistry
 		add: anImage
-		executor: (ObjectFinalizer
-			receiver: anImage process
-			selector: #kill)
+		executor: (MatraImageProcessFinalizer new
+			process: anImage process)

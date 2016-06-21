@@ -1,0 +1,14 @@
+{
+	"category" : "Matra",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"process" ],
+	"name" : "MatraImageProcessFinalizer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
