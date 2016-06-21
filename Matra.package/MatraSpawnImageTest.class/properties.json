@@ -1,0 +1,15 @@
+{
+	"category" : "Matra",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"prototype",
+		"cloned" ],
+	"name" : "MatraSpawnImageTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
