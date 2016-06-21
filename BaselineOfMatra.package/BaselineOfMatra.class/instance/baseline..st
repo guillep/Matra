@@ -2,7 +2,7 @@ baseline
 baseline: spec
 	<baseline>
 	spec for: #common do: [ spec
-		configuration: 'OSSubproces'
+		configuration: 'OSSubprocess'
 			with: [
 				spec
 					versionString: #stable;
@@ -11,4 +11,5 @@ baseline: spec
 			with: [ 
 				spec
 					versionString: #development;
-					repository: 'http://smalltalkhub.com/mc/Pharo/Seamless/main' ] ]
+					repository: 'http://smalltalkhub.com/mc/Pharo/Seamless/main' ];
+		package: 'Matra' with: [ spec requires: #('OSSubprocess' 'Seamless') ] ]
