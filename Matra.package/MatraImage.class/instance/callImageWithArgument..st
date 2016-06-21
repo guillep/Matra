@@ -2,7 +2,7 @@ loading
 callImageWithArgument: aCollection 
 	
 	OSSUnixSubprocess new
-		command: self vmExecutableFileName fullNameWithIndicator; 
+		command: self vmBinary fullNameWithIndicator; 
 		arguments: {'--nodisplay' . 
 			self imageFile fullNameWithIndicator}, aCollection;
 		redirectStdout;

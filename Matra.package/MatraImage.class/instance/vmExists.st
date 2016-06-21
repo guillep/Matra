@@ -1,4 +1,4 @@
 testing
 vmExists
 	
-	^ self vmDirectory exists
+	^ self vmBinary notNil and: [ self vmBinary exists ]

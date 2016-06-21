@@ -2,4 +2,4 @@ running
 setUp
 
 	super setUp.
-	prototype := MatraImageFileManager pharo5Prototype
+	prototype := MatraImage newCurrent basicClone

@@ -1,4 +1,4 @@
 accessing
 vmDirectory
 	
-	^ location / 'pharo-vm'
+	^ vmBinary parent

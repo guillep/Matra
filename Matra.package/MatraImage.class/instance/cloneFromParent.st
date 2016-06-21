@@ -1,7 +1,6 @@
 cloning
 cloneFromParent
 	
-	self loader: (MatraFileCopyLoader new prototypeImage: parentImage; yourself).
 	parentImage imageExists ifTrue: [ loader loadImage ].
 	parentImage sourceFileExists ifTrue: [ loader loadSourceFile ].
 	parentImage vmExists ifTrue: [ loader loadVm ].

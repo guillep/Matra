@@ -5,7 +5,7 @@ spawnDoing: arguments
 	
 	self assert: self isRunning not.
 	process := OSSUnixSubprocess new
-		command: self vmExecutableFileName fullNameWithIndicator; 
+		command: self vmBinary fullNameWithIndicator; 
 		arguments: {self imageFile fullNameWithIndicator}, arguments;
 		run.
 		

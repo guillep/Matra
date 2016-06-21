@@ -16,7 +16,8 @@
 		"imageFile",
 		"vmBinary",
 		"loader",
-		"sourceFile" ],
+		"sourceFile",
+		"sourceVersion" ],
 	"name" : "MatraImage",
 	"pools" : [
 		 ],

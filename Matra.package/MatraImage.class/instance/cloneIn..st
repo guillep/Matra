@@ -1,10 +1,6 @@
 cloning
-cloneIn: aDestinyLocation
-	
-	^ (MatraImage
-		on: aDestinyLocation
-		version: version
-		vmVersion: vmVersion)
-		parent: self;
+cloneIn: aDestination
+
+	^ (self basicCloneIn: aDestination)
 		cloneFromParent;
 		yourself
