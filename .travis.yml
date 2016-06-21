@@ -11,10 +11,7 @@ addons:
 
 install: 
   - wget -O - get.pharo.org/60+vm | bash
-  - ./install-packages.sh
-
-before_script:
-  - ./scripts/test-tokyodb.sh
+  - ./scripts/install-packages.sh
 
 script:
   - ./pharo Pharo.image test --no-xterm --fail-on-failure "Matra"
