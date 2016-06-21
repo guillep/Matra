@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfMatra",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfMatra",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
