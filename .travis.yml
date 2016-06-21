@@ -1,0 +1,26 @@
+language: c
+
+addons:
+  apt:
+    packages:
+      - lib32asound2
+      - lib32z1
+      - lib32bz2-1.0
+      - libssl1.0.0:i386
+      - libfreetype6:i386
+
+install: 
+  - wget -O - get.pharo.org/60+vm | bash
+  - ./pharo Pharo.image eval "
+Metacello new 
+  baseline: 'Matra';
+  repository: 'filetree://.';
+  load.
+Smalltalk snapshot: true andQuit: true'.
+"
+
+before_script:
+  - ./scripts/test-tokyodb.sh
+
+script:
+  - ./pharo Pharo.image test --no-xterm --fail-on-failure "Matra"
