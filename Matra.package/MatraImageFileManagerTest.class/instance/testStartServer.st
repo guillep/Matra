@@ -1,5 +1,5 @@
 tests
-testStartSeamless
+testStartServer
 
 	| remoteSmalltalk clientSideNetwork |
 	prototype load.
@@ -10,4 +10,4 @@ testStartSeamless
 	clientSideNetwork := SeamlessNetwork new.
 	remoteSmalltalk := clientSideNetwork environmentAt: (TCPAddress localAt: 8081).
 
-	self assert: remoteSmalltalk vm path == prototype vmDirectory fullNameWithIndicator
+	self assert: remoteSmalltalk vm path equals: prototype vmDirectory fullNameWithIndicator
