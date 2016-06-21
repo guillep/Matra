@@ -6,7 +6,9 @@ testStartServer
 	prototype startServerOn: 8081.
 	
 	'waiting for the image to start' logCr.
+	Time now logCr.
 	5 seconds wait. "that the image starts properly and starts listening"
+	Time now logCr.
 	
 	clientSideNetwork := SeamlessNetwork new.
 	remoteSmalltalk := clientSideNetwork environmentAt: (TCPAddress localAt: 8081).
