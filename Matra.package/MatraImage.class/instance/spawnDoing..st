@@ -6,7 +6,7 @@ spawnDoing: arguments
 	self assert: self isRunning not.
 	process := OSSUnixSubprocess new
 		command: self vmBinary fullNameWithIndicator; 
-		arguments: {self imageFile fullNameWithIndicator}, arguments;
+		arguments: { '--nodisplay' . self imageFile fullNameWithIndicator}, arguments;
 		run.
 		
 	self class registerForFinalization: self.

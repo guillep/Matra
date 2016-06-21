@@ -1,4 +1,4 @@
 spawning
 spawn
 	
-	self spawnDoing: #()
+	self spawnDoing: #('--no-quit')
