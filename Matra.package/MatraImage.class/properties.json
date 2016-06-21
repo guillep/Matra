@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Registry" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"location",
