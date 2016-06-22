@@ -3,12 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Current" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"archetype",
-		"uuid" ],
-	"name" : "MatraImage",
+		"images",
+		"registry" ],
+	"name" : "MatraRegistry",
 	"pools" : [
 		 ],
 	"super" : "Object",

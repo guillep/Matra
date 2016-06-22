@@ -6,9 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"archetype",
-		"uuid" ],
-	"name" : "MatraImage",
+		"block" ],
+	"name" : "MatraFuture",
 	"pools" : [
 		 ],
 	"super" : "Object",

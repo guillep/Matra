@@ -8,4 +8,5 @@ start
 		arguments: { '--nodisplay' . archetype imageFile fullNameWithIndicator}, arguments;
 		run.
 	
+	MatraRegistry registerImage: self.
 	self class registerForFinalization: self.
