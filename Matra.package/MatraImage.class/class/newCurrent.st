@@ -7,4 +7,4 @@ newCurrent
 		sourceVersion: (SystemVersion current major - 1) asString, SystemVersion current minor asString;
 		imageFile: FileLocator image;
 		vmBinary: FileLocator vmBinary;
-		sourceFile: Smalltalk sourcesName asFileReference.
+		sourceFile: Smalltalk sourcesName asFileReference
