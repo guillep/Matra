@@ -1,7 +1,7 @@
 tests
 testStartLocalServer
 
-	| remoteSmalltalk clientSideNetwork localImage |
+	| remoteSmalltalk clientSideNetwork |
 	
 	localImage := MatraImage newCurrent.
 	localImage startServerOn: 8081.
