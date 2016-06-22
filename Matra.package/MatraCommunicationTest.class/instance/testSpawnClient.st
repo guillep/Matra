@@ -1,12 +1,10 @@
 tests
 testSpawnClient
 
-	| client |
-	
 	localImage := MatraImage newCurrent.
 	localImage startServerOn: 8081.
 	
-	client := localImage archetype clone startClientOf: localImage.
-	self deny: client isConnected.
+	clientImage := localImage archetype clone startClientOf: localImage.
+	self deny: clientImage isConnected.
 	5 seconds wait.
-	self assert: client isConnected.
+	self assert: clientImage isConnected.

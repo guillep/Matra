@@ -1,9 +1,9 @@
 tests
 testStartServer
 
-	| remoteSmalltalk clientSideNetwork image |
+	| remoteSmalltalk clientSideNetwork |
 	prototypeArchetype load.
-	image := prototypeArchetype startServerOn: 8081.
+	clientImage := prototypeArchetype startServerOn: 8081.
 	
 	3 seconds wait. "that the image starts properly and starts listening"
 	

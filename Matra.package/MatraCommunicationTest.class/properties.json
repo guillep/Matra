@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"localImage" ],
+		"localImage",
+		"clientImage" ],
 	"name" : "MatraCommunicationTest",
 	"pools" : [
 		 ],

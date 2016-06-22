@@ -2,6 +2,7 @@ tests
 testGCKillsImage
 
 	| process image |
+	<expectedFailure>
 	image := prototypeArchetype spawn.
 	
 	process := image process.
