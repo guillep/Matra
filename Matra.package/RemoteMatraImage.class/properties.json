@@ -3,12 +3,13 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Registry" ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MatraCommunicationTest",
+		"process",
+		"arguments" ],
+	"name" : "RemoteMatraImage",
 	"pools" : [
 		 ],
-	"super" : "MatraTest",
+	"super" : "MatraImage",
 	"type" : "normal" }

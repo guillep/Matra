@@ -6,9 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MatraCommunicationTest",
+		"prototypeArchetype",
+		"clonedArchetype" ],
+	"name" : "MatraTest",
 	"pools" : [
 		 ],
-	"super" : "MatraTest",
+	"super" : "TestCase",
 	"type" : "normal" }

@@ -1,5 +1,6 @@
 tests
 testObjectKeyInWeakRegistryIsImage
 
-	prototype spawn.	
-	self assert: (MatraImage imageRegistry includes: prototype)
+	| image |
+	image := prototypeArchetype spawn.	
+	self assert: (RemoteMatraImage imageRegistry includes: image)

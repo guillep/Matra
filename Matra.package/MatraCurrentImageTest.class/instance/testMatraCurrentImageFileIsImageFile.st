@@ -1,4 +1,4 @@
 tests
 testMatraCurrentImageFileIsImageFile
 
-	self assert: MatraImage newCurrent imageFile equals: FileLocator image
+	self assert: MatraImageArchetype newCurrent imageFile equals: FileLocator image

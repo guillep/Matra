@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "MatraCommunicationTest",
+		"server" ],
+	"name" : "LocalMatraImage",
 	"pools" : [
 		 ],
-	"super" : "MatraTest",
+	"super" : "MatraImage",
 	"type" : "normal" }

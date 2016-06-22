@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"prototype",
-		"cloned" ],
+		 ],
 	"name" : "MatraSpawnImageTest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "MatraTest",
 	"type" : "normal" }

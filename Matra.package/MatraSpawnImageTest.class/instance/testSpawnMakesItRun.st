@@ -1,6 +1,7 @@
 tests
 testSpawnMakesItRun
 
-	prototype spawn.
+	| image |
+	image := prototypeArchetype spawn.
 	1 second wait.
-	self assert: prototype isRunning
+	self assert: image isAlive

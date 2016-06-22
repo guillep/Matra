@@ -1,5 +1,5 @@
 tests
 testSeamlessIsInstalled
 
-	prototype load.
-	prototype bootVerifySeamlessIsPresent.
+	prototypeArchetype load.
+	prototypeArchetype bootVerifySeamlessIsPresent.

@@ -3,21 +3,10 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"Current",
-		"Registry" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"location",
-		"version",
-		"vmVersion",
-		"isRunning",
-		"process",
-		"parentImage",
-		"imageFile",
-		"vmBinary",
-		"loader",
-		"sourceFile",
-		"sourceVersion" ],
+		"archetype" ],
 	"name" : "MatraImage",
 	"pools" : [
 		 ],

@@ -1,0 +1,3 @@
+testing
+isAlive
+	self subclassResponsibility

@@ -1,11 +1,11 @@
 tests
 testGCKillsImage
 
-	| process |
-	prototype spawn.
+	| process image |
+	image := prototypeArchetype spawn.
 	
-	process := prototype process.
-	prototype := nil.
+	process := image process.
+	image := nil.
 
 	Smalltalk garbageCollect.
 	1 second wait.

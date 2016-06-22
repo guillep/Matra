@@ -1,0 +1,23 @@
+{
+	"category" : "Matra",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Current",
+		"Registry" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"location",
+		"imageVersion",
+		"vmVersion",
+		"imageFile",
+		"vmBinary",
+		"sourceFile",
+		"sourceVersion",
+		"loader",
+		"parentImage" ],
+	"name" : "MatraImageArchetype",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
