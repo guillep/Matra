@@ -6,10 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"block",
-		"result",
-		"valueSemaphore" ],
-	"name" : "MatraFuture",
+		"value" ],
+	"name" : "MatraFutureValue",
 	"pools" : [
 		 ],
 	"super" : "Object",
