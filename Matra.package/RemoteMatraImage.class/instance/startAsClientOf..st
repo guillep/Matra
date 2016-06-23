@@ -8,7 +8,7 @@ startAsClientOf: anImage
 		'eval' . '--no-quit' . 
 		('((SeamlessNetwork new
 	environmentAt: (TCPAddress ip: {ip} port: {port}))
-		at: #MatraRegistry)
+		at: #MatraHandshakeRegistry)
 			registerRemoteImage: MatraImage newCurrent uuid: ''{token}''' format: {
 				'ip' -> anImage ip printString.
 				'port' -> anImage port asString.

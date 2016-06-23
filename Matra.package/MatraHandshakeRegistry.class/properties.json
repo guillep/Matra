@@ -8,7 +8,7 @@
 	"instvars" : [
 		"images",
 		"registry" ],
-	"name" : "MatraRegistry",
+	"name" : "MatraHandshakeRegistry",
 	"pools" : [
 		 ],
 	"super" : "Object",
