@@ -1,9 +1,10 @@
-as yet unclassified
+running
 runTestsStartingWith: letters
 
-	| localLetters testCases suite |
+	[| localLetters testCases suite |
 	localLetters := letters asLocalObject.
-	testCases := TestCase allSubInstances select: [ :each | letters include: each name first ].
+	testCases := TestCase allSubclasses select: [ :each | 
+		each isAbstract not and: [letters includes: each name first] ].
 	suite := TestSuite new.
 	testCases do: [ :each | suite addTest: each buildSuiteFromSelectors ].
-	^ suite run
+	^ suite run] on: Exception do: [ :e | e signalerContext stack logCr. e pass ]
