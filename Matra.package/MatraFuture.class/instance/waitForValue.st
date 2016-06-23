@@ -1,4 +1,4 @@
 accessing
 waitForValue
 
-	self isFinished ifFalse: [ valueSemaphore wait ]
+	self waitForValue: timeoutMicroseconds

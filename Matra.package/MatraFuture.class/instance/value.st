@@ -1,5 +1,4 @@
 accessing
 value
 
-	self waitForValue.
-	^ result value
+	^ self valueTimeout: timeoutMicroseconds

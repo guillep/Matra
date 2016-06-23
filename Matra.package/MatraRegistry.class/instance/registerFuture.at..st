@@ -1,7 +1,7 @@
 as yet unclassified
-registerImage: anImage
+registerFuture: aFuture at: aUUID
 
 	registry
-		at: anImage uuid asString
+		at: aUUID asString
 		ifPresent: [ self error: 'There is already an image registered with the requested UUID' ]
-		ifAbsentPut: anImage
+		ifAbsentPut: [ aFuture ]

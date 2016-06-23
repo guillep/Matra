@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"block",
-		"result",
-		"valueSemaphore",
-		"timeoutMicroseconds",
-		"timeoutCallback" ],
-	"name" : "MatraFuture",
+		 ],
+	"name" : "MatraTimeoutException",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Error",
 	"type" : "normal" }
