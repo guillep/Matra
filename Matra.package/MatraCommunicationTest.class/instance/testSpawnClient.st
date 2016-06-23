@@ -6,3 +6,4 @@ testSpawnClient
 	
 	clientImage := localImage archetype clone startClientOf: localImage.
 	self assert: clientImage isConnected.
+	2 second wait

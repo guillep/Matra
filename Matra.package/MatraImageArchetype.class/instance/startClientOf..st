@@ -6,6 +6,6 @@ startClientOf: anImage
 		clientConnection := MatraFuture new.
 		MatraHandshakeRegistry registerFuture: clientConnection at: child uuid.
 		child startAsClientOf: anImage.
-		child remoteProxy: (clientConnection valueTimeout: 5 seconds).
+		child remoteProxy: (clientConnection valueTimeout: 30 seconds).
 		child
-	]) valueTimeout: 7 seconds
+	]) valueTimeout: 30 seconds
