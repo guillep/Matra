@@ -5,4 +5,5 @@ initialize
 	result := nil.
 	valueSemaphore := Semaphore new.
 	timeoutMicroseconds := self class defaultTimeout.
-	timeoutCallback := [ MatraTimeoutException signal ]
+	timeoutCallback := [ MatraTimeoutException signal ].
+	exceptionCallback := [ :e | e signal  ]

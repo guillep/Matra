@@ -2,4 +2,4 @@ accessing
 valueTimeout: aTimeout
 
 	self waitForValue: aTimeout.
-	^ result value
+	^ result valueForFuture: self

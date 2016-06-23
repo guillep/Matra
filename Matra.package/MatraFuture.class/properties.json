@@ -10,7 +10,8 @@
 		"result",
 		"valueSemaphore",
 		"timeoutMicroseconds",
-		"timeoutCallback" ],
+		"timeoutCallback",
+		"exceptionCallback" ],
 	"name" : "MatraFuture",
 	"pools" : [
 		 ],
