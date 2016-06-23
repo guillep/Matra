@@ -1,0 +1,4 @@
+*MatraTestRunner
+basicFailures
+
+	^ failures
