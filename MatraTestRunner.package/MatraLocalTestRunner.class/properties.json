@@ -1,0 +1,14 @@
+{
+	"category" : "MatraTestRunner",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "MatraLocalTestRunner",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
