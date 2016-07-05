@@ -1,4 +1,0 @@
-*MatraTestRunner
-basicPassed
-
-	^ passed
