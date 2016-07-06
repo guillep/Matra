@@ -1,0 +1,4 @@
+accessing
+nextTask
+
+	^ taskQueue next

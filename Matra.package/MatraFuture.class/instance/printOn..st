@@ -6,5 +6,5 @@ printOn: aStream
 		nextPutAll: '(finished=';
 		nextPutAll: self isFinished asString;
 		nextPutAll: ';value=';
-		nextPutAll: result basicValue asString;
+		nextPutAll: result asString;
 		nextPutAll: ')'

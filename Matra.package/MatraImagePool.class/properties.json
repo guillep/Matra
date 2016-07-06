@@ -1,0 +1,19 @@
+{
+	"category" : "Matra",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"imageProcesses",
+		"taskQueue",
+		"prototypeImage",
+		"poolSize",
+		"processCreationBlock",
+		"futureDictionary" ],
+	"name" : "MatraImagePool",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -8,4 +8,4 @@ remoteVmLocation
 			OSPlatform current isWindows
 				ifTrue: [ 'win' ]
 				ifFalse: ['mac' ]].
-	^ 'http://files.pharo.org/get-files/', imageVersion asString ,'/', vmVersion asString, '-', platformName, '-stable.zip'
+	^ 'http://files.pharo.org/get-files/', imageVersion asString ,'/pharo-', platformName asString, '-', vmVersion asString, '.zip'

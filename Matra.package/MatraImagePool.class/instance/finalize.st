@@ -1,0 +1,4 @@
+initialization
+finalize
+
+	^ self stop
