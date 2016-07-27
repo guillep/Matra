@@ -10,6 +10,6 @@ baseline: spec
 		configuration: 'Seamless'
 			with: [ 
 				spec
-					versionString: #development;
+					versionString: #stable;
 					repository: 'http://smalltalkhub.com/mc/Pharo/Seamless/main' ];
 		package: 'Matra' with: [ spec requires: #('OSSubprocess' 'Seamless') ] ]
