@@ -19,5 +19,4 @@ loadImage
 	self location children do: [ :child |
 		child renameTo: 'Pharo.', child extension  ].
 	
-	self assert: self imageFile exists.
-	image imageFile: self imageFile.
+	self assert: self imageFile exists

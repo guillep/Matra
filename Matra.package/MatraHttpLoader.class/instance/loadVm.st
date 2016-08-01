@@ -6,7 +6,7 @@ loadVm
 	image ensureLocationExists.
 	
 	imageUrl := self remoteVmLocation asZnUrl.
-	zipFile := image location / 'zipfile'.
+	zipFile := self location / 'zipfile'.
 	ZnClient new
 		url: imageUrl;
 		downloadTo: zipFile.
@@ -24,4 +24,3 @@ loadVm
 	zipFile ensureDelete.
 
 	self assert: self vmBinary exists.
-	image vmBinary: self vmBinary.

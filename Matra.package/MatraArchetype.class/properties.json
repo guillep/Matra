@@ -15,8 +15,11 @@
 		"sourceFile",
 		"sourceVersion",
 		"loader",
-		"parentImage" ],
-	"name" : "MatraImageArchetype",
+		"parentImage",
+		"image",
+		"artifacts",
+		"vm" ],
+	"name" : "MatraArchetype",
 	"pools" : [
 		 ],
 	"super" : "Object",

@@ -1,4 +1,0 @@
-loading
-ensureLocationExists
-	
-	location ensureCreateDirectory

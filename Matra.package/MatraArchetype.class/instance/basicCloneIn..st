@@ -1,7 +1,7 @@
 cloning
 basicCloneIn: aDestination
 
-	^ (MatraImageArchetype
+	^ (MatraArchetype
 		on: aDestination
 		version: imageVersion
 		vmVersion: vmVersion)

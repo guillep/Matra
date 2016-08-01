@@ -1,0 +1,16 @@
+{
+	"category" : "Matra",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"repository",
+		"version" ],
+	"name" : "MatraConfiguration",
+	"pools" : [
+		 ],
+	"super" : "MatraArtifact",
+	"type" : "normal" }

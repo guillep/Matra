@@ -1,0 +1,4 @@
+location
+ensureLocationExists
+	
+	location asFileReference ensureCreateDirectory

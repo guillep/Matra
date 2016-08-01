@@ -1,4 +1,4 @@
 tests
 testCurrentMatraArchetypeIsNotAlive
 
-	self deny: MatraImageArchetype newCurrent isAlive.
+	self deny: MatraArchetype newCurrent isAlive.

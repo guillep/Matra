@@ -1,4 +1,4 @@
 accessing
 sourceFile
 	
-	^ image location / ('PharoV' , self sourceVersion asString, '.sources')
+	^ self location / ('PharoV' , self sourceVersion asString, '.sources')

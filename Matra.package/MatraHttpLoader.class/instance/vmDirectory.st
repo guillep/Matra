@@ -1,4 +1,4 @@
 accessing
 vmDirectory
 	
-	^ image location / 'pharo-vm'
+	^ self location / 'pharo-vm'

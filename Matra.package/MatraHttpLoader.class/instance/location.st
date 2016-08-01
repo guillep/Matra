@@ -1,4 +1,4 @@
 accessing
 location
 	
-	^ image location
+	^ image location asFileReference

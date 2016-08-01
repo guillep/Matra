@@ -1,0 +1,15 @@
+{
+	"category" : "Matra-Cluster",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"address",
+		"remotePeer" ],
+	"name" : "MatraClusterSeed",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
 accessing
 imageFile
 	
-	^ image location / 'Pharo.image'
+	^ image location asFileReference / 'Pharo.image'

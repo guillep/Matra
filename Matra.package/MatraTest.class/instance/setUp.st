@@ -2,4 +2,4 @@ running
 setUp
 
 	super setUp.
-	prototypeArchetype := MatraImageArchetype newCurrent basicClone
+	prototypeArchetype := MatraArchetype newCurrent basicClone

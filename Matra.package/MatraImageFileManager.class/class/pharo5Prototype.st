@@ -1,7 +1,7 @@
 accessing
 pharo5Prototype
 	
-	^ (MatraImageArchetype
+	^ (MatraArchetype
 		on: self pharo5PrototypeLocation
 		version: 50
 		vmVersion: 'pharo')

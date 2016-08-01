@@ -2,5 +2,5 @@ instance-creation
 newCurrent
 	
 	^ LocalMatraImage new
-		archetype: MatraImageArchetype newCurrent;
+		archetype: MatraArchetype newCurrent;
 		yourself

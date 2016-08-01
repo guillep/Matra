@@ -2,5 +2,5 @@ tests
 testRemoteMatraImageIsAlive
 
 	| image |
-	image := MatraImageArchetype newCurrent clone spawn.
+	image := MatraArchetype newCurrent clone spawn.
 	self assert: image isAlive.
